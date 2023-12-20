@@ -6,7 +6,7 @@ name: test build
 on:
  workflow_call:
 
- # workflow_dispatch:
+ workflow_dispatch:
  #   inputs:
  #     tag:
  #       description: "test"
