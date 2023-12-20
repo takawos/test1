@@ -27,5 +27,5 @@ jobs:
     - name: Build
       run: |
         echo "`pwd`"
-        echo "`ls　./..`"
-        go build
+        echo "`ls　./...`"
+        go build -v ./...
